@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Crusty Bucket | Menu: Nachos</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+    <!-- Navbar starts here -->
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top" style="--bs-bg-opacity: .4;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Crusty Bucket</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel" style="--bs-bg-opacity: 1;">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Crusty Bucket</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="supercard.html">Supercard</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="delivery.html">Delivery</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="booking.html">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="login.html">Log-in or Sign-up</a>
+                  </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Navbar ends here --> 
+
+    <!-- this is the header -->
+
+    <div class = menuheader>
+
+        <img class="menupic" src="images/fn menu header.png" alt="menu bg">
+        <div class = pattyheader>
+            <h4>Menu</h4>
+            <h1>Nachos</h1>
+        </div>
+
+        <div class = "orderbtn-patty">
+            <button class = "orderbutton-patty" onclick="location.href='menu.html'">Go Back</button>
+          <button class = "orderbutton-patty" onclick="location.href='delivery.html'">Order Now</button>
+        </div>
+    
+    </div>
+
+    <!-- end of header -->
+
+    <!-- start of nachos item list -->
+    <hr>
+
+    <h1 class = "pattyh1">All Products</h1>
+
+    <div class="cream-bg">
+        <div class="container">
+          <div class="row g-5 justify-content-evenly">
+            <div class = "col-lg-6">
+                <div class = "card">
+                    <div class = "row g-0">
+                        <div class = "col-6 col-md-5">
+                            <img src="images/classic_krabby_patty-cropped.png" class = "classic-kb-img img-fluid rounded-start" alt="classic-kb">
+                        </div>
+                        <div class = "col-6 col-md-7">
+                            <div class = "card-body d-flex flex-column">
+                                <div class = "h-100">
+                                    <h3 class ="card-title">Food | Nachos</h3>
+                                    <h2 class = "card-title">Cheese Nachos</h2>
+                                    <p class = "card-text">
+                                        The all-time FAVORITE krabby patty of the sea. Indulge in the succulent secret recipe that Bikini Bottom has grown to love
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <button type = "button" class = "btn btn-dark" onclick="location.href= 'delivery.html'">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                          </svg>
+                                        Order
+                                    </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class = "col-lg-6">
+                <div class = "card">
+                    <div class = "row g-0">
+                        <div class = "col-6 col-md-5">
+                            <img src="images/classic_krabby_patty-cropped.png" class = "classic-kb-img img-fluid rounded-start" alt="classic-kb">
+                        </div>
+                        <div class = "col-6 col-md-7">
+                            <div class = "card-body d-flex flex-column">
+                                <div class = "h-100">
+                                    <h3 class ="card-title">Food | Nachos</h3>
+                                    <h2 class = "card-title">Chumchos</h2>
+                                    <p class = "card-text">
+                                        Chum, chum, and more CHUM! A triple chum-burger deluxe made with original chum-based patty and chum rings; topped as well with special chum sauce and brie cheese
+
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <button type = "button" class = "btn btn-dark" onclick="location.href= 'delivery.html'">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                          </svg>
+                                        Order
+                                    </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+          </div>
+        
+        </div>
+
+              <div class="container">
+                <div class="row g-5 justify-content-evenly">
+                  <div class = "col-lg-6">
+                      <div class = "card">
+                          <div class = "row g-0">
+                              <div class = "col-6 col-md-5">
+                                  <img src="images/Cheesenion_patty-cropped.png" class = "classic-kb-img img-fluid rounded-start" alt="classic-kb">
+                              </div>
+                              <div class = "col-6 col-md-7">
+                                  <div class = "card-body d-flex flex-column">
+                                      <div class = "h-100">
+                                          <h3 class ="card-title">Food | Nachos</h3>
+                                          <h2 class = "card-title">Jelly Nachos</h2>
+                                          <p class = "card-text">
+                                            Angus beef patty put in combination with purple onions and brie cheese. Get a scrumptious taste with just a bite of this patty—seasoned with sea salt; drizzled with ketchup and mayonnaise
+                                          </p>
+                                      </div>
+      
+                                      <div>
+                                          <button type = "button" class = "btn btn-dark" onclick="location.href= 'delivery.html'">
+                                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                                </svg>
+                                              Order
+                                          </button>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                          </div>
+                      </div>
+                      
+                  </div>
+  
+            </div>
+          
+          </div>
+
+    </div>
+
+    <!-- end of nachos item list -->
+
+</body>
+</html>

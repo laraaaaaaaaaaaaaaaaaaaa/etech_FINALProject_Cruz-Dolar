@@ -9,6 +9,8 @@
     font-family: 'Gruppo', cursive;         
 }
 
+                                                     /* NAVIGATION BAR */
+
 /* start of css styles for NAVBAR */
 
 .navbar-brand {
@@ -20,6 +22,8 @@
 }
 
 /* end of css styles for NAVBAR */
+
+                                                        /* MENU */
 
 /* start of css styles for MENU HEADER */
 .menupic {
@@ -38,10 +42,327 @@
 .menuword {
     position: absolute;
     top: 50%;
-    left: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 75px;
+    margin-bottom: none;
+}
+
+.orderbtn {
+    position: absolute;
+    top: 63%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 75px;
 }
 
+.orderbutton {
+    font-family: 'Gruppo', cursive;
+    width: 180px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 0;
+    background-color: #c2f4a8;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    transition: transform 0.5s;
+}
+
+.orderbutton:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(126, 255, 234, 0.19);
+}
+
 /* end of css styles for MENU HEADER */
+
+/* this is the styles for FOOD menu item list */
+
+.foodh1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.firstrow {
+    display: flex;
+    justify-content: center;
+}
+
+.startcard {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border: 1px solid rgb(198, 197, 197);
+    border-radius: 10%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.startcard1 {
+    background-image: url(images/classic_krabby_patty-removebg-preview.png);
+    padding-top: 13%;
+}
+
+#krabbypatty {
+    cursor: pointer;
+}
+
+.startcard2 {
+    background-image: url(images/classic_krabby_patty-removebg-preview.png);
+    padding-top: 13%;
+}
+
+.startcard3 {
+    background-image: url(images/classic_krabby_patty-removebg-preview.png);
+    padding-top: 13%;
+}
+
+.secrow {
+    display: flex;
+    justify-content: center;
+}
+
+.subcard {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border: 1px solid rgb(198, 197, 197);
+    border-radius: 10%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 30px 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.subcard1 {
+    background-image: url(images/classic_krabby_patty-removebg-preview.png);
+    padding-top: 13%;
+}
+
+.subcard2 {
+    background-image: url(images/classic_krabby_patty-removebg-preview.png);
+    padding-top: 13%;
+}
+
+.subcard3 {
+    background-image: url(images/classic_krabby_patty-removebg-preview.png);
+    padding-top: 13%;
+}
+
+.startcard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(1, 255, 94, 0.2), 0 6px 20px 0 rgba(1, 255, 94, 0.19);
+}
+
+.subcard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(1, 255, 94, 0.2), 0 6px 20px 0 rgba(1, 255, 94, 0.19);
+}
+
+/* end of styles for FOOD menu item list */
+
+/* this is the styles for DRINKS menu item list */
+
+.drinksh1 {
+    margin: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.thirdrow {
+    display: flex;
+    justify-content: center;
+}
+
+.altcard {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border: 1px solid rgb(198, 197, 197);
+    border-radius: 10%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 30px 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.altcard1 {
+    background-image: url(images/classic_krabby_patty-removebg-preview.png);
+    padding-top: 13%;
+}
+
+.altcard2 {
+    background-image: url(images/classic_krabby_patty-removebg-preview.png);
+    padding-top: 13%;
+}
+
+.altcard3 {
+    background-image: url(images/classic_krabby_patty-removebg-preview.png);
+    padding-top: 12%;
+}
+
+.altcard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(1, 255, 94, 0.2), 0 6px 20px 0 rgba(1, 255, 94, 0.19);
+}
+
+
+/* end of styles for DRINKS menu item list */
+
+                                                /* Krabby Patty Menu */
+
+
+/* this is the styles for Krabby Patty Menu header */
+
+.pattyheader h4{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 35px;
+    margin-bottom: none;
+}
+
+.pattyheader h1{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 75px;
+    margin-bottom: none;
+}
+
+.orderbtn-patty {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 75px;
+}
+
+.orderbutton-patty {
+    font-family: 'Gruppo', cursive;
+    width: 180px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 0;
+    background-color: #c2f4a8;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    transition: transform 0.5s;
+}
+
+.orderbutton-patty:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(126, 255, 234, 0.19);
+}
+
+/* end of styles for Krabby Patty Menu header */
+
+/* this is the styles for menu item list (krabby patty, chum specials, kelp fries, nachos, pizzas, package meals) */
+
+.pattyh1 {
+    margin: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.menu-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 0px;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(1, 255, 94, 0.2), 0 6px 20px 0 rgba(1, 255, 94, 0.19);
+}
+
+.card h3 {
+    text-transform: uppercase;
+    color: rgb(177, 177, 177);
+    font-size: .8rem;
+}
+
+.card p {
+    line-height: 1.4em;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 7px;
+}
+
+/* end of styles for menu item list (krabby patty, chum specials, kelp fries, nachos, pizzas, package meals) */
+
+
+/* this is the styles for booking header */
+
+.bookpic {
+    width: 100%;
+    height: 500px;
+    filter: brightness(35%) saturate(70%);
+    margin-top: 0px;
+}
+
+.bookheader {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bookword {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 75px;
+    margin-bottom: none;
+}
+
+/* end of styles for booking header */
+
+/* this is the styles for booking cards */
+
+.bookh1 {
+    margin: 20px;
+    text-align: center;
+
+}
+
+.formsparty {
+    margin-left: 20%;
+}
