@@ -366,3 +366,9 @@
 .formsparty {
     margin-left: 20%;
 }
+
+body {
+    background-image: url("images/background\ 2.png");
+    background-size: cover;
+    background-color: rgba(255,255, 255, 0.5);
+}
