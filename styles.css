@@ -2,7 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Sedgwick+Ave+Display&display=swap');
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Irish+Grover&family=Sedgwick+Ave+Display&display=swap');
+>>>>>>> 29c8091bbec8774e0117be48fedbf4f445bec29a
 
 /* styles for webpage */
 
@@ -213,6 +217,8 @@
     padding-top: 13%;
 }
 
+/* animation for food cards */
+
 .startcard:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 8px 0 rgba(1, 255, 94, 0.2), 0 6px 20px 0 rgba(1, 255, 94, 0.19);
@@ -269,6 +275,8 @@
     padding-top: 12%;
 }
 
+/* animation for drink cards */
+
 .altcard:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 8px 0 rgba(1, 255, 94, 0.2), 0 6px 20px 0 rgba(1, 255, 94, 0.19);
@@ -310,6 +318,8 @@
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 75px;
 }
+
+/* animation for buttons in header of each page */
 
 .orderbutton-patty {
     font-family: 'Gruppo', cursive;
@@ -414,13 +424,80 @@
 
 }
 
-.formsparty {
-    margin-left: 20%;
-}
-
 body {
     background-image: url("images/background\ 2.png");
     background-size: cover;
     background-color: rgba(255,255, 255, 0.5);
 }
+<<<<<<< HEAD
 >>>>>>> 1901ed25bfd2d3f1819dccf7860a21b950040d29
+=======
+
+.forms {
+    margin-left: 15%;
+}
+
+/* css for image infographic for book a party */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    justify-content: space-evenly;
+}
+.theme {
+    margin: 5px 5px 5px 5px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 10px double rgb(92, 175, 92);
+
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+/* font & border deisgns for booking forms */
+
+.formheaders {
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+  }
+
+.box {
+    background-repeat: no-repeat;
+    background-size: 100% 20px, calc(100% - 8px) 100%;
+    background-position: left, 0;
+    
+    height: 80px;
+    width: 800px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+  }
+  
+.gradient-border {
+    background-image: linear-gradient(to right, #c2f4a8, #97e1dc),
+                      linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  }
+
+  /* css for word in supercard header */
+.cardword {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 75px;
+    margin-bottom: none;
+    color: white;
+  }
+
+
+  
+>>>>>>> 29c8091bbec8774e0117be48fedbf4f445bec29a
