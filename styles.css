@@ -528,3 +528,121 @@ body {
 }
 
 /* end of css styes for HOME */
+
+/* start of styles for ORDER NOW */
+
+        /* start for headerr */
+
+.ordernowpic {
+    width: 100%;
+    height: 350px;
+    filter: brightness(35%) saturate(70%);
+    margin-top: 0px;
+}
+
+.ONH {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.ONH h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    line-height: 150px;
+    letter-spacing: 10px;
+    margin: none;
+
+    font-family: 'Slackey', cursive;
+    color: #ffffff3f;
+    -webkit-text-stroke: 3px #dfdfdfad;
+    background: url(images/maxresdefault-removebg-preview.png);
+    -webkit-background-clip: text;
+            background-clip: text;
+    background-position: 2000px 2000px ;
+    animation: back 20s linear infinite;
+    transform: translate(-50%, -20%);
+
+}
+
+        /* end for header */
+
+        /* start for body */
+
+.ONB {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.via_hotline{
+
+    /* margin-top: 100px; */
+
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    width: 1000px;
+    background-image: url(images/scroll.png);
+    filter: brightness(110%) saturate(60%);
+
+
+    /* overflow: hidden;
+    display: none; */
+
+}
+
+.via_visit{
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    width: 1000px;
+    background-image: url(images/scroll.png);
+    filter: brightness(110%) saturate(60%);
+
+     /* overflow: hidden;
+    display: none; */
+
+}
+
+        .ovt {
+            font-size: 50px;
+            font-family: 'Irish Grover', cursive;
+            color: #6e401a;
+        }
+
+        .ovv {
+            font-size: 50px;
+            font-family: 'Irish Grover', cursive;
+            color: #6e401a;v
+        }
+
+
+.t_content, .v_content{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.telephonepic, .counterpic{
+    width: 50%;
+    position: relative;
+    left: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #1a0f0870;
+      -moz-box-shadow: 10px 10px 5px #1a0f0888;
+      -webkit-box-shadow: 10px 10px 5px #1a0f08d5;
+      -khtml-box-shadow: 10px 10px 5px #1a0f0880;
+}
+
+        /* end for body */
