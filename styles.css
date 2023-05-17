@@ -585,11 +585,11 @@ body {
 
     /* margin-top: 100px; */
 
-    padding: 150px;
+    padding: 180px;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 800px;
-    width: 1000px;
+    height: 900px;
+    width: 1200px;
     background-image: url(images/scroll.png);
     filter: brightness(110%) saturate(60%);
 
@@ -600,11 +600,11 @@ body {
 }
 
 .via_visit{
-    padding: 150px;
+    padding: 180px;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 800px;
-    width: 1000px;
+    height: 900px;
+    width: 1200px;
     background-image: url(images/scroll.png);
     filter: brightness(110%) saturate(60%);
 
@@ -633,16 +633,71 @@ body {
     flex-direction: row;
 }
 
-.telephonepic, .counterpic{
-    width: 50%;
+.telephonepic {
+    width: 40%;
+    height: 330px;
     position: relative;
     left: 10px;
-    margin-right: 50px;
+    margin-right: 35px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #1a0f0870;
       -moz-box-shadow: 10px 10px 5px #1a0f0888;
       -webkit-box-shadow: 10px 10px 5px #1a0f08d5;
       -khtml-box-shadow: 10px 10px 5px #1a0f0880;
+}
+
+.counterpic{
+    width: 40%;
+    height: 80%;
+    position: relative;
+    left: 10px;
+    margin-right: 35px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #1a0f0870;
+      -moz-box-shadow: 10px 10px 5px #1a0f0888;
+      -webkit-box-shadow: 10px 10px 5px #1a0f08d5;
+      -khtml-box-shadow: 10px 10px 5px #1a0f0880;
+}
+
+.number {
+    background-color: #6e401a;
+    border-radius: 13px;
+    box-shadow: 10px 10px 5px #040302d3;
+      -moz-box-shadow: 10px 10px 5px #000000d5;
+      -webkit-box-shadow: 10px 10px 5px #1a0f08f0;
+      -khtml-box-shadow: 10px 10px 5px #1a0f083d;
+}
+
+.number h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #d4aa37;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.address {
+    background-color: #6e401a;
+    border-radius: 13px;
+    box-shadow: 10px 10px 5px #040302d3;
+      -moz-box-shadow: 10px 10px 5px #000000d5;
+      -webkit-box-shadow: 10px 10px 5px #1a0f08f0;
+      -khtml-box-shadow: 10px 10px 5px #1a0f083d;
+}
+
+.address h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: #d4aa37;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+.tele_instru, .visit_insru{
+    font-size: 17px;
+    line-height: 25px;
 }
 
         /* end for body */
