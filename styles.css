@@ -529,13 +529,18 @@ body {
 
 /* end of css styes for HOME */
 
+
+
+        /* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* start of styles for ORDER NOW */
+
 
         /* start for headerr */
 
 .ordernowpic {
     width: 100%;
-    height: 350px;
+    height: 450px;
     filter: brightness(35%) saturate(70%);
     margin-top: 0px;
 }
@@ -701,3 +706,86 @@ body {
 }
 
         /* end for body */
+
+/* end of styles for order now */
+
+        /* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* start of styles for about us page */
+
+
+/* start of header */
+/* .aboutuspic {
+    width: 100%;
+    height: 450px;
+    filter: brightness(35%) saturate(70%);
+    margin-top: 0px;
+} */
+
+
+
+.AUH {
+    width: 100%;
+    height: 500px;
+    filter: brightness(35%) saturate(70%);
+    background-image: url(images/abtuspic.png);
+    background-position: 80% 50%;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.abtus_head {
+    position: absolute;
+    right: 50px;
+    width: 50%;
+    font-size: 150px;
+    line-height: 150px;
+    letter-spacing: 10px;
+    text-align: right;
+    margin-top: 100px;
+
+    font-family: 'Slackey', cursive;
+    color: #ffffff;
+}
+
+/* end of header */
+/* ----------------------------------------------- */
+/* start of body */
+.who {
+    position: relative;
+    top: 600px;
+    padding: 80px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    width: 900px;
+    background-color: #1c092262;
+    /* background-image: url(images/scroll.png);
+    filter: brightness(110%) saturate(60%); */
+    margin: auto;
+    
+}
+
+.who h1 {
+    font-family: 'sedgwick ave display', cursive;
+    font-size: 100px;
+    color: #ffffff;
+    margin: none;
+    text-align: center;
+}
+
+.w2 {
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px 30px; */
+}
+
+.w2 p {
+    padding: 10px 20px 10px 40px;
+    line-height: 35px;
+}
+
+/* end of body */
+
+/* end of styles for about us page */
