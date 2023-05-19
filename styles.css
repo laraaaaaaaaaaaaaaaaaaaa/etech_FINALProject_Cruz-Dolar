@@ -751,19 +751,27 @@ body {
 /* end of header */
 /* ----------------------------------------------- */
 /* start of body */
-.who {
+
+.AUB {
     position: relative;
+    top: 600px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.who {
+    /* position: relative; */
     top: 600px;
     padding: 80px;
     justify-content: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 650px;
+    height: 700px;
     width: 900px;
     background-color: #1c092262;
-    /* background-image: url(images/scroll.png);
-    filter: brightness(110%) saturate(60%); */
     margin: auto;
+    margin-bottom: 100px;
     
 }
 
@@ -782,10 +790,56 @@ body {
 }
 
 .w2 p {
-    padding: 10px 20px 10px 40px;
+    font-size: 18px;
+    padding: 20px 20px 10px 40px;
     line-height: 35px;
+    color: #ffffff;
 }
 
+
+
+.history {
+    /* position: relative; */
+    top: 700px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.carousel_history {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.abcd {
+        width: 100%;
+        height: 500px;
+        filter: brightness(35%) saturate(70%);
+        margin-top: 0px;
+}
+
+.history h1 {
+    font-family: 'Sedgwick ave display', cursive;
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-size: 80px;
+    margin-left: 80px;
+    position: absolute;
+    top: 900px;
+    padding-left: 100px;
+    justify-self: flex-start;
+}
+
+
+
+
+.crew {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    /* position: relative;
+    top: 900px; */
+}
 /* end of body */
 
 /* end of styles for about us page */
