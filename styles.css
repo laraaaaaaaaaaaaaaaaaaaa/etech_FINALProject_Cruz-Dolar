@@ -715,13 +715,6 @@ body {
 
 
 /* start of header */
-/* .aboutuspic {
-    width: 100%;
-    height: 450px;
-    filter: brightness(35%) saturate(70%);
-    margin-top: 0px;
-} */
-
 
 
 .AUH {
@@ -769,9 +762,10 @@ body {
     background-size: 100%;
     height: 700px;
     width: 900px;
-    background-color: #1c092262;
+    background-color: #14091782;
     margin: auto;
     margin-bottom: 100px;
+    border-radius: 20px;
 }
 
 .who h1 {
@@ -781,13 +775,13 @@ body {
     margin: none;
     text-align: center;
 
-    background: #210e23 -webkit-gradient(linear, left top, right top, from(#210e23), 
-    to(#210e23), color-stop(0.5,  #d7b4e6bb)) 0 0 no-repeat;
+    background: #210e23b8 -webkit-gradient(linear, left top, right top, from(#210e23b8), 
+    to(#210e23b8), color-stop(0.5,  #d7b4e6bb)) 0 0 no-repeat;
     background-size: 250px;
     color: rgba(183, 84, 245, 0.1);
     -webkit-background-clip: text;
     animation: animate 3s infinite; 
-    -webkit-text-stroke: 4px #280d35a1;
+    -webkit-text-stroke: 3px #ffffffa1;
 }
 
 
@@ -895,3 +889,31 @@ body {
 /* end of body */
 
 /* end of styles for about us page */
+
+
+/* start of styles for LOGIN SIGNUP PAGE */
+
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+    
+    @media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }
+
+
+.login {
+    position: relative;
+
+}
+
+.h3_login {
+    font-family: 'slackey', cursive;
+}
+/* end of styles for LOGIN SIGNUP PAGE */
