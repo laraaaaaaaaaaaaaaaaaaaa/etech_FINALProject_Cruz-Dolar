@@ -465,6 +465,8 @@ body {
 
 /* start of css styes for HOME */
 
+
+
 .homecontainer {
     /* background-image: linear-gradient(#000000)transparent;
     display: flex;
@@ -473,6 +475,12 @@ body {
 
     position: relative;
 
+}
+
+
+.spacer {
+    position: relative;
+    margin-bottom: 700px;
 }
 
 #bgvideo {
@@ -612,7 +620,7 @@ body {
     width: 1200px;
     background-image: url(images/scroll.png);
     filter: brightness(110%) saturate(60%);
-
+margin-bottom: 100px;
      /* overflow: hidden;
     display: none; */
 
@@ -945,6 +953,24 @@ body {
     background-position: center;    
 }
 
+.hhh {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.hhhh {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 70px;
+    color: #ffffff;
+}
+
 .bg-image-vertical {
     position: relative;
     overflow: hidden;
@@ -962,6 +988,7 @@ body {
 
 .login {
     margin: auto;
+    margin-bottom: -200px;
     position: relative;
     top: -450px;
     width: 1000px;
@@ -1010,11 +1037,10 @@ body {
     text-decoration: none;
 }
 
-
+.lastdivv {
+    margin-bottom: 80px;
+}
 /* end of styles for LOGIN SIGNUP PAGE */
-
-
-
 
 
 
